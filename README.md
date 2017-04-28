@@ -1,8 +1,7 @@
+# Vue-webpack generator 
 
-Readme
-=================
-vue-starter generator will give you a Web App Structure based on VUE and webpack!
- 
+> This is a [Yeoman](http://yeoman.io) generator that scaffolds out a front-end web app based on [VUE](https://cn.vuejs.org/) using [webpack](https://webpack.js.org/) for the build process
+
 
 Install
 ========
@@ -10,7 +9,7 @@ Install
 
 Prereqs and installation requirements
 =====================================
-1.install [node](https://nodejs.org/) and [Python](https://www.python.org/).
+1.install [node](https://nodejs.org/).
 
 2.install [yeoman](http://yeoman.io/).
 ```shell
@@ -30,6 +29,7 @@ mkdir yourNewProject
 cd yourNewProject
 yo vue-starter
 ```
-Then you will have a full WebApp structure in yourNewProject. 
+
+
 Please read the README.md in yourNewProject for more details.
 
