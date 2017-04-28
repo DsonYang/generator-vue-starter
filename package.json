@@ -1,6 +1,6 @@
 {
   "name": "generator-vue-starter",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This is a generator for vue+webpack. You can choose to start with a base structure of a quick-start structure",
   "files": [
     "generators"
