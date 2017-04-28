@@ -46,12 +46,12 @@ module.exports = class extends Generator {
   			pkg = '_package_fast.json'
   			src = '_src_fast'
   			cfg = '_config_fast'
-  			rdm = '_src_fast'
+  			rdm = '_README_fast.md'
   		} else {
   			pkg = '_package.json'
   			src = '_src'
   			cfg = '_config'
-  			rdm = '_README_fast.md'
+  			rdm = '_README.md'
   		}
   		this.fs.copyTpl(
 	      this.templatePath(pkg),
