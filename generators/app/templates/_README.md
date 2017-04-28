@@ -7,7 +7,7 @@ $ npm install
 ```
 ``` bash
 $ npm run dev
-$ open http://0.0.0.0:8010/
+$ open http://localhost:8010/
 ```
 ** PS:本地调试建议开启浏览器跨域模式直接跨域访问mock平台或测试环境接口
 ``` bash

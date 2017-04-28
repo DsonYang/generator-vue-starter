@@ -9,14 +9,14 @@ $ npm install
 在mock目录下按照【下划线连接(a_b_c.json映射a/b/c接口)】命名规则配置相应json文件
 ``` bash
 $ npm run mock
-$ open http://0.0.0.0:8010/
+$ open http://localhost:8010/
 ```
 
 ##连接测试环境或mock平台调试开发 
 config/config.js里appCfg.proxy配置需要映射的api地址及host
 ``` bash
 $ npm run dev
-$ open http://0.0.0.0:8010/
+$ open http://localhost:8010/
 ```
 ** PS:建议开启浏览器跨域模式直接跨域访问mock平台或测试环境接口
 ``` bash
