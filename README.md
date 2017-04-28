@@ -18,7 +18,7 @@ npm install -g generator-vue-starter
 mkdir yourNewProject
 cd yourNewProject
 ```
-- Run `yo webapp` to scaffold your webapp
+- Run generator to scaffold your webapp
 ```shell
 yo vue-starter
 ```
