@@ -34,11 +34,11 @@ module.exports = class extends Generator {
   	}
   	writing(){
   		this.fs.copyTpl(
-	      this.templatePath('.babelrc'),
+	      this.templatePath('_.babelrc'),
 	      this.destinationPath('.babelrc')
 	    );
 	    this.fs.copyTpl(
-	      this.templatePath('.gitignore'),
+	      this.templatePath('_.gitignore'),
 	      this.destinationPath('.gitignore')
 	    );
 	    let pkg,src,cfg,rdm;
