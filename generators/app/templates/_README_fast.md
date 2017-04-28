@@ -2,6 +2,9 @@
 # 技术栈：vue+webpack
 
 ### 开发
+``` bash
+$ npm install
+```
 ##本地mock数据调试 
 在mock目录下按照【下划线连接(a_b_c.json映射a/b/c接口)】命名规则配置相应json文件
 ``` bash

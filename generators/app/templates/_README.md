@@ -2,7 +2,9 @@
 # 技术栈：vue+webpack
 
 ### 开发
-
+``` bash
+$ npm install
+```
 ``` bash
 $ npm run dev
 $ open http://0.0.0.0:8010/
