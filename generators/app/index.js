@@ -14,8 +14,8 @@ module.exports = class extends Generator {
   		return this.prompt([{
   		  type    : 'input',
 	      name    : 'name',
-	      message : 'Please give your project a name, default value is \''+this.appname+'\'',
-	      default : this.appname 
+	      message : 'Do you want to generate the structure in the current directory (just press "Enter") or in a new sub directory (give a new name)?',
+	      default : "" 
   		},{
   		  type    : 'input',
 	      name    : 'mode',
@@ -25,8 +25,6 @@ module.exports = class extends Generator {
   			if (answers.name != "") {
 	    		this.appname = answers.name
 	    		this.destinationRoot('./'+answers.name)
-	    	}else {
-	    		this.destinationRoot('./')
 	    	}
 	    	this.mode = answers.mode
   		})
