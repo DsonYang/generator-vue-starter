@@ -11,7 +11,16 @@ const srcPath = resolve(__dirname+'/../', 'src');
 const fs = require('fs');
 
 const mockbase = resolve(srcPath, 'mock');
-
+function renderPage(req, res) {
+    const paths = Object.keys(appCfg.urlpairs);
+    for (let i = 0, len = paths.length; i < len; i++) {
+        let path = paths[i];
+        if (req.path.match(new RegExp(path))) {
+            res.redirect(`/${appCfg.urlpairs[path]}`);
+            return ;
+        }
+    }
+}
 
 function getMockProxyConf(){
     const conf = {};
